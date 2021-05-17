@@ -292,8 +292,7 @@ body {
 /*......Desc......*/
 
 .desc {
-    padding: 50px 10px 50px;
-    max-width: ;
+    padding: 50px 10px 30px;
 }
 
 .desc__item {
@@ -305,26 +304,47 @@ body {
     max-width: 750px;
 }
 
-.desc__item-title {}
-
 .desc__item-text1,
 .desc__item-text2 {
     margin-bottom: 20px;
     text-align: justify;
 }
 
-.container {}
-
 
 /*......Manager.......*/
 
-.manager__title {}
+.manager__title {
+    padding: 50px 10px 30px;
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+}
 
-.manager__item {}
+.manager__item {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
 
-.manager__persname {}
+.manager__persname {
+    margin-bottom: 15px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+}
 
-.manager__descr {}
+.manager__descr,
+..manager__phone {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
 
 .manager__phone {}
 
