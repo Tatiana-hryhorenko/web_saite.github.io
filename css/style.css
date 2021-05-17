@@ -33,6 +33,7 @@ body {
 .header {
     background: #1B1818;
     z-index: 10;
+    height: 105px;
 }
 
 .header__inner {
@@ -45,17 +46,8 @@ body {
 .logo__link {
     position: relative;
     z-index: 5;
-}
-
-.btn__menu {
-    width: 60px;
-    display: none;
-}
-
-.btn__menu div {
-    height: 3px;
-    background-color: #fefefe;
-    margin-bottom: 10px;
+    width: 80px;
+    height: 70px;
 }
 
 .menu__list {
@@ -455,4 +447,14 @@ address {
     justify-content: space-between;
     color: #fefefe;
     padding: 10px;
+}
+
+@media(max-width: 767px) {
+    .menu__list {
+        display: flex;
+        align-items: center;
+    }
+    .menu__list>li {
+        padding: 10px 0;
+    }
 }
