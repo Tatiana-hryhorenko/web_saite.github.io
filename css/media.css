@@ -1,6 +1,10 @@
-@media (max-width: 992px) {
+@media (min-width: 767px) {
     .menu__list {
-        display: none;
+        display: flex;
+        align-items: center;
+    }
+    .menu__list>li {
+        padding: 10px 0;
     }
     .btn__menu {
         display: block;

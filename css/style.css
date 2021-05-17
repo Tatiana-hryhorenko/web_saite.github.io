@@ -32,6 +32,7 @@ body {
 
 .header {
     background: #1B1818;
+    z-index: 10;
 }
 
 .header__inner {
@@ -39,6 +40,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 5px;
+}
+
+.logo__link {
+    position: relative;
+    z-index: 5;
 }
 
 .btn__menu {
