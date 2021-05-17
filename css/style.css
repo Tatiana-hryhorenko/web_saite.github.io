@@ -357,45 +357,45 @@ body {
     cursor: pointer;
     margin: 0 auto;
     padding-bottom: 15px;
-    border-bottom: 3px solid #FFFF00;
+    border-bottom: 3px solid #FFE500;
+    color: #FFE500;
 }
 
 form {
+    position: relative;
     margin: 0 auto;
-    background: rgba(0, 186, 255, 0.77);
+    background: #1B1818;
     max-width: 450px;
     max-height: 500px;
     padding: 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
+    border-radius: 20px;
 }
 
 .group {
     margin: 10px;
-    padding: 5px;
 }
 
 label {
     padding-left: 10px;
+    color: #CDC8C8;
 }
 
 input {
     margin-top: 10px;
     height: 40px;
     width: 400px;
-    border-radius: 20px/20px;
-    border: none;
+    border-radius: 20px;
     padding-left: 15px;
     font-size: 18px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
+    outline: none;
 }
 
 input:focus {
-    border: 2px solid #6c00ff;
     transform: translateX(15px);
     width: 385px;
 }
 
-.button {
+.button__text {
     cursor: pointer;
     padding: 10px;
     height: 45px;
