@@ -75,7 +75,8 @@
      background-repeat: no-repeat;
  }
  
- .top__inner {
+ .top__inner,
+ .stock__inner {
      display: flex;
  }
  
@@ -83,11 +84,12 @@
      max-width: 450px;
      margin-right: 70px;
      position: absolute;
-     top: 17%;
-     left: 42%;
+     top: 15%;
+     left: 45%;
  }
  
- .top__content {
+ .top__content,
+ .stock__content {
      padding-top: 150px;
      padding-bottom: 180px;
  }
@@ -255,6 +257,23 @@
  
  .map__img {
      padding: 50px;
+ }
+ /*.......Stock......*/
+ 
+ .stock {
+     background: url(../image/background-2.jpg);
+     height: 100vh;
+     background-position: top;
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+ 
+ .stock__heading {
+     max-width: 450px;
+     margin-right: 70px;
+     position: absolute;
+     top: 15%;
+     right: 45%;
  }
  /*.......Footer.......*/
  
