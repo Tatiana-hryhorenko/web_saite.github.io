@@ -1,0 +1,5 @@
+@media (max-width: 992px) {
+    .menu__list {
+        display: none;
+    }
+}

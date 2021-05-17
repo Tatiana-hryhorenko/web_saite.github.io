@@ -41,6 +41,16 @@ body {
     padding: 5px;
 }
 
+.btn__menu {
+    width: 60px;
+}
+
+.btn__menu div {
+    height: 3px;
+    background-color: #1B1818;
+    margin-bottom: 10px;
+}
+
 .menu__list {
     display: flex;
 }
