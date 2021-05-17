@@ -43,11 +43,12 @@ body {
 
 .btn__menu {
     width: 60px;
+    display: none;
 }
 
 .btn__menu div {
     height: 3px;
-    background-color: #1B1818;
+    background-color: #fefefe;
     margin-bottom: 10px;
 }
 

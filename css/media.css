@@ -2,4 +2,7 @@
     .menu__list {
         display: none;
     }
+    .btn__menu {
+        display: block;
+    }
 }
