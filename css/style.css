@@ -103,7 +103,7 @@
      margin-bottom: 20px;
  }
  
- .application-btn {
+ .btn__text {
      background: #FFE500;
      color: #1B1818;
      font-size: 18px;
@@ -112,7 +112,7 @@
      border-radius: 10px;
  }
  
- .application-btn:hover {
+ .btn__text:hover {
      text-decoration: none;
      color: #1B1818;
      background: #EFC52E;
