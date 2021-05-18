@@ -10,6 +10,11 @@ if (menuLinks.length > 0) {
         if (menuLink.dataset.goto && document.querySelector(menuLink.data.goto)) {
             const gotoBlock = document.querySelector(menuLink.dataset.goto);
             const gotoBlockValue = gotoBlock.getBoundingClient.Rect().top + pageXOffset - document.querySelector('header').offsetHeight;
+            window.scrollTo({
+                top: gotoBlockValue,
+                behavior: "smooth"
+            });
+            e.preventDefault();
         }
 
     }

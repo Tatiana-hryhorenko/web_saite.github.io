@@ -1,12 +1,9 @@
-@media (min-width: 767px) {
+@media(max-width: 767px) {
     .menu__list {
         display: flex;
         align-items: center;
     }
     .menu__list>li {
         padding: 10px 0;
-    }
-    .btn__menu {
-        display: block;
     }
 }
