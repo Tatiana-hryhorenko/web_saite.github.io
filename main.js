@@ -19,30 +19,3 @@ if (menuLinks.length > 0) {
 
     }
 }*/
-
-let HoverButton = React.createClass({
-    getInitialState: function() {
-        return { hover: false };
-    },
-
-    mouseOver: function() {
-        this.setState({ hover: true });
-    },
-
-    mouseOut: function() {
-        this.setState({ hover: false });
-    },
-
-    render: function() {
-        let label = "foo";
-        if (this.state.hover) {
-            label = "bar";
-        }
-        return React.createElement(
-            "button", { onMouseOver: this.mouseOver, onMouseOut: this.mouseOut },
-            label
-        );
-    }
-});
-
-React.render(React.createElement(HoverButton, null), document.body);
