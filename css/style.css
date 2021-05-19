@@ -1,4 +1,4 @@
-            html {
+                html {
                 box-sizing: border;
             }
             
@@ -139,7 +139,7 @@
             /*.......Direction.......*/
             
             .direction {
-                padding: 50px 10px 50px;
+                padding: 30px 20px 30px;
             }
             
             .direction__item {
@@ -155,6 +155,7 @@
             .direction__item-text {
                 margin-bottom: 20px;
                 text-align: justify;
+                padding: 20px;
             }
             /*.......Price.......*/
             
@@ -435,7 +436,25 @@
                 color: #fefefe;
                 padding: 10px;
             }
-            /*@media(max-width: 767px) {
+            
+            *@media (min-width: 1200px) {
+                .direction {
+                    padding: 30px 20px 30px;
+                }
+                .direction__item {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 20px;
+                }
+                .direction__item-content {
+                    max-width: 750px;
+                }
+                .direction__item-text {
+                    margin-bottom: 20px;
+                    text-align: justify;
+                    padding: 20px;
+                }
+                /*@media(max-width: 767px) {
             .menu__icon {
                 z-index: 5;
                 display: block;
