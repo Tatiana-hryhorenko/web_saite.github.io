@@ -1,5 +1,5 @@
-            html {
-                box-sizing: border;
+            body {
+                box-sizing: border-box;
             }
             
             a {
@@ -467,13 +467,32 @@
                     display: flex;
                     flex-direction: column;
                 }
+                .stock {
+                    background: url(../image/background-2.jpg);
+                    height: 100vh;
+                    background-position: center center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+                .desc {
+                    padding: 20px 20px 30px;
+                }
+                .desc__item {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .desc__item-title {
+                    justify-content: center;
+                    margin: 30px;
+                }
                 .desc__item-content {
                     max-width: 550px;
+                    margin: 0 auto;
                 }
                 .desc__item-text1,
                 .desc__item-text2 {
-                    text-align: justify;
-                    margin: 10px;
+                    margin-right: 50px;
+                    justify-content: center;
                 }
                 .price {
                     margin: 20px 20px 10px;
