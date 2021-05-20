@@ -460,20 +460,18 @@
                         }
                         
                         @media (max-width: 767px) {
-                            .direction {
-                                padding: 30px 20px 30px;
-                            }
                             .direction__item {
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            .price {
+                                margin: 20px 70px 20px;
+                            }
+                            .price__items {
                                 flex-wrap: wrap;
-                                max-width: 75%;
-                                margin-left: ;
                             }
-                            .direction__item-content {
-                                max-width: 75%;
-                            }
-                            .direction__item-text {
-                                margin-bottom: 20px;
-                                text-align: justify;
-                                padding: 20px;
+                            .price__item {
+                                max-width: 100%;
+                                margin-bottom: 30px;
                             }
                         }
