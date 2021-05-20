@@ -440,7 +440,7 @@
             
             @media (min-width: 992px) and (max-width: 1199px) {
                 .price {
-                    margin: 20px 45px 20px;
+                    margin: 20px 70px 20px;
                 }
                 .price__items {
                     flex-wrap: wrap;

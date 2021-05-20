@@ -22,12 +22,12 @@ if (menuLinks.length > 0) {
 
 function myFunction(x) {
     if (x.matches) { // If media query matches
-        document.body.style.backgroundColor = "yellow";
+        document.body.style.backgroundColor = "#EBFFED";
     } else {
-        document.body.style.backgroundColor = "pink";
+        document.body.style.backgroundColor = "#FEFEFE";
     }
 }
 
-var x = window.matchMedia("(max-width: 700px)")
-myFunction(x) // Call listener function at run time
+let x = window.matchMedia("(max-width: 767px)")
+myFunction(x)
 x.addListener(myFunction)
