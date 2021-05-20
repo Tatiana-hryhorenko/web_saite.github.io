@@ -470,7 +470,7 @@
                 .stock {
                     background: url(../image/background-2.jpg);
                     height: 100vh;
-                    background-position: center center;
+                    background-position-x: inherit;
                     background-size: cover;
                     background-repeat: no-repeat;
                 }
