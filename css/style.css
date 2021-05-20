@@ -439,9 +439,13 @@
                     }
                     
                     @media (min-width: 992px) and (max-width: 1199px) {
+                        .price {
+                            margin: 20px 20px 20px;
+                        }
                         .price__items {
-                            display: flex;
-                            flex-direction: column;
-                            height: 100%;
+                            flex-wrap: wrap;
+                        }
+                        .price__item {
+                            max-width: 50%;
                         }
                     }
