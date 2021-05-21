@@ -174,7 +174,7 @@
                 height: 350px;
                 background: #1A1A1A;
                 padding: 20px;
-                position: relative;
+                /*position: relative;*/
                 overflow: hidden;
             }
             
@@ -438,7 +438,7 @@
                 padding: 10px;
             }
             
-            @media (min-width: 992px) and (max-width: 1199px) {
+            @media(max-width: 1170px) {
                 .price {
                     margin: 20px 70px 20px;
                 }
@@ -459,7 +459,7 @@
                 }
             }
             
-            @media (max-width: 767px) {
+            @media (min-width: 1169px) {
                 .direction {
                     padding: 20px 20px 20px;
                 }
