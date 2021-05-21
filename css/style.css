@@ -440,7 +440,7 @@
             
             @media(max-width: 1145px) {
                 .price {
-                    padding: 20px 30px 20px;
+                    padding: 20px 70px 20px;
                 }
                 .price__item {
                     margin: 30px;
@@ -460,7 +460,8 @@
                     text-align: justify;
                 }
             }
-            /* @media (max-width: 1144px) {
+            
+            @media (max-width: 1030px) {
                 .direction {
                     padding: 20px 20px 20px;
                 }
@@ -501,6 +502,7 @@
                 .price__items {
                     display: flex;
                     flex-direction: column;
+                    align-items: center;
                     height: 50%;
                 }
             }
