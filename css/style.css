@@ -553,11 +553,33 @@
                                                                             padding: 25px;
                                                                         }
                                                                         .price__item {
-                                                                            max-width: 550px;
-                                                                            max-height: 550px;
+                                                                            max-width: 650px;
+                                                                            max-height: 650px;
                                                                             background: #1A1A1A;
                                                                             overflow: hidden;
                                                                             margin-bottom: 20px;
+                                                                        }
+                                                                        .desc {
+                                                                            padding: 50px 10px 30px;
+                                                                        }
+                                                                        .desc__item {
+                                                                            display: flex;
+                                                                            justify-content: space-between;
+                                                                            width: 70%;
+                                                                            height: 50%;
+                                                                            margin: 0 auto;
+                                                                            left: 0;
+                                                                        }
+                                                                        .desc {
+                                                                            padding: 50px 10px 30px;
+                                                                        }
+                                                                        .desc__item-content {
+                                                                            max-width: 800px;
+                                                                        }
+                                                                        .desc__item-text1,
+                                                                        .desc__item-text2 {
+                                                                            margin-bottom: 20px;
+                                                                            text-align: justify;
                                                                         }
                                                                     }
                                                                     /*Extra large devices (large desktops, 1200px and up) @media (min-width: 1200px) {
