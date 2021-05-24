@@ -1,5 +1,5 @@
 @media (min-width: 992px) {
-    .menu {
+    .menu__list {
         display: none;
     }
 }
