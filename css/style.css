@@ -522,33 +522,42 @@
                                                                     
                                                                     @media (min-width: 992px) {
                                                                         .direction {
-                                                                            padding: 35px;
+                                                                            padding: 40px 30px 30px;
+                                                                            width: 75%;
+                                                                            height: 75%;
+                                                                            margin: 0 auto;
+                                                                            left: 0;
                                                                         }
                                                                         .direction__item {
                                                                             display: flex;
-                                                                            flex-direction: column;
-                                                                            width: 75%;
-                                                                            height: 50%;
+                                                                            justify-content: space-between;
                                                                         }
                                                                         .direction__item-content {
-                                                                            max-width: 500px;
+                                                                            max-width: 700px;
+                                                                        }
+                                                                        .direction__item-text {
+                                                                            text-align: justify;
+                                                                            padding: 20px;
                                                                         }
                                                                         .price {
-                                                                            padding-left: 45px;
-                                                                            padding-right: 45px;
-                                                                            margin-top: 10px;
+                                                                            padding-left: 35px;
+                                                                            padding-right: 35px;
+                                                                            margin: 0 auto;
+                                                                            left: 0;
+                                                                            display: flex;
                                                                         }
                                                                         .price__items {
                                                                             display: flex;
-                                                                            flex-direction: column;
+                                                                            justify-content: center;
                                                                             height: 100%;
+                                                                            padding: 25px;
                                                                         }
                                                                         .price__item {
-                                                                            max-width: 450px;
-                                                                            max-height: 450px;
+                                                                            max-width: 550px;
+                                                                            max-height: 550px;
                                                                             background: #1A1A1A;
                                                                             overflow: hidden;
-                                                                            margin-top: 20px;
+                                                                            margin-bottom: 20px;
                                                                         }
                                                                     }
                                                                     /*Extra large devices (large desktops, 1200px and up) @media (min-width: 1200px) {
