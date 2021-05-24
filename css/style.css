@@ -512,64 +512,49 @@
                                                                         overflow: hidden;
                                                                         margin-top: 20px;
                                                                     }
-                                                                }
+                                                                }*/
                                                                 
-                                                                /*@media screen and (min-width: 992px) {
-                                                                    .container {
-                                                                        max-width: 850px;
-                                                                    }
+                                                                @media screen and (max-width: 992px) {
                                                                     .direction {
-                                                                        padding: 40px 30px 30px;
-                                                                        width: 75%;
-                                                                        height: 75%;
-                                                                        margin: 0 auto;
-                                                                        left: 0;
+                                                                        padding: 30px 20px 30px;
                                                                     }
                                                                     .direction__item {
                                                                         display: flex;
                                                                         justify-content: space-between;
                                                                     }
                                                                     .direction__item-content {
-                                                                        max-width: 700px;
+                                                                        max-width: 750px;
                                                                     }
                                                                     .direction__item-text {
                                                                         text-align: justify;
                                                                         padding: 20px;
                                                                     }
                                                                     .price {
-                                                                        padding-left: 35px;
-                                                                        padding-right: 35px;
-                                                                        margin: 0 auto;
-                                                                        left: 0;
-                                                                        display: flex;
+                                                                        margin: 20px;
                                                                     }
                                                                     .price__items {
                                                                         display: flex;
-                                                                        justify-content: center;
+                                                                        flex-direction: column;
                                                                         height: 100%;
                                                                         padding: 25px;
-                                                                        margin-top: -45px;
+                                                                        /*margin-top: -45px;*/
                                                                     }
                                                                     .price__item {
-                                                                        max-width: 650px;
-                                                                        max-height: 650px;
+                                                                        max-width: 350px;
+                                                                        max-height: 350px;
                                                                         background: #1A1A1A;
                                                                         overflow: hidden;
                                                                         margin-bottom: 20px;
                                                                     }
                                                                     .desc {
-                                                                        padding: 50px 10px 30px;
+                                                                        padding: 50px 20px 30px;
                                                                     }
                                                                     .desc__item {
                                                                         display: flex;
                                                                         justify-content: space-between;
-                                                                        width: 70%;
-                                                                        height: 50%;
-                                                                        margin: 0 auto;
-                                                                        left: 0;
                                                                     }
                                                                     .desc {
-                                                                        padding: 50px 10px 30px;
+                                                                        padding: 50px 20px 30px;
                                                                     }
                                                                     .desc__item-content {
                                                                         max-width: 800px;
@@ -578,5 +563,117 @@
                                                                     .desc__item-text2 {
                                                                         margin-bottom: 20px;
                                                                         text-align: justify;
+                                                                    }
+                                                                }
+                                                                /*************.price {
+                                                                    margin: 20px;
+                                                                }
+                                                                
+                                                                .price__items {
+                                                                    display: flex;
+                                                                    justify-content: space-between;
+                                                                    height: 100%;
+                                                                }
+                                                                
+                                                                .price__item {
+                                                                    max-width: 350px;
+                                                                    max-height: 350px;
+                                                                    background: #1A1A1A;
+                                                                    padding: 20px;
+                                                                    overflow: hidden;
+                                                                    border-radius: 50px;
+                                                                }
+                                                                
+                                                                .price__item-title {
+                                                                    margin-bottom: 20px;
+                                                                    text-transform: uppercase;
+                                                                    color: #FFE500;
+                                                                    font-family: 'Fira', sans-serif;
+                                                                    font-weight: 500px;
+                                                                    font-size: 28px;
+                                                                    line-height: 32px;
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                .price__item-subtitle {
+                                                                    color: #fefefe;
+                                                                }
+                                                                
+                                                                .price__item-list {
+                                                                    color: #fefefe;
+                                                                    margin-bottom: 10px;
+                                                                }
+                                                                
+                                                                .price__item-number {
+                                                                    color: #FFE500;
+                                                                    font-family: 'Fira', sans-serif;
+                                                                    font-size: 28px;
+                                                                    line-height: 32px;
+                                                                    text-align: center;
+                                                                    padding: 10px;
+                                                                    margin-bottom: 10px;
+                                                                }
+                                                                
+                                                                .icon-done:before {
+                                                                    content: url(../image/icon-done.svg);
+                                                                    padding-right: 5px;
+                                                                }
+                                                                
+                                                                .icon-none:before {
+                                                                    content: url(../image/i_none.svg);
+                                                                    padding-right: 5px;
+                                                                }
+                                                                
+                                                                .price__item-list li {
+                                                                    color: #fefefe;
+                                                                    padding-left: 30px;
+                                                                    text-align: justify;
+                                                                }
+                                                                
+                                                                .price__item-btn {
+                                                                    background: #FFE500;
+                                                                    color: #1B1818;
+                                                                    font-size: 18px;
+                                                                    line-height: 21px;
+                                                                    padding: 15px 45px;
+                                                                    border-radius: 10px;
+                                                                }
+                                                                
+                                                                .price__item-btn:hover {
+                                                                    text-decoration: none;
+                                                                    color: #1B1818;
+                                                                    background: #EFC52E;
+                                                                    border-radius: 10px;
+                                                                    transition: all .5s;
+                                                                }*********************************/
+                                                                /* Medium devices (tablets, 768px)*/
+                                                                /*@media screen and (min-width: 768px) {
+                                                                    .direction {
+                                                                        padding: 35px;
+                                                                    }
+                                                                    .direction__item {
+                                                                        display: flex;
+                                                                        flex-direction: column;
+                                                                        height: 90%;
+                                                                    }
+                                                                    .direction__item-content {
+                                                                        max-width: 700px;
+                                                                    }
+                                                                    .price {
+                                                                        padding-left: 45px;
+                                                                        padding-right: 45px;
+                                                                        margin-top: 10px;
+                                                                    }
+                                                                    .price__items {
+                                                                        display: flex;
+                                                                        flex-direction: column;
+                                                                        height: 100%;
+                                                                    }
+                                                                    .price__item {
+                                                                        max-width: 450px;
+                                                                        max-height: 450px;
+                                                                        background: #1A1A1A;
+                                                                        overflow: hidden;
+                                                                        margin-top: 20px;
                                                                     }
                                                                 }*/
