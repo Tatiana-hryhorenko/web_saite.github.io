@@ -436,6 +436,71 @@
                                                                     color: #fefefe;
                                                                     padding: 10px;
                                                                 }
+                                                                /* Large devices (desktops, 992px)*/
+                                                                
+                                                                @media (max-width: 992px) {
+                                                                    .direction {
+                                                                        padding: 40px 30px 30px;
+                                                                        width: 75%;
+                                                                        height: 75%;
+                                                                        margin: 0 auto;
+                                                                        left: 0;
+                                                                    }
+                                                                    .direction__item {
+                                                                        display: flex;
+                                                                        justify-content: space-between;
+                                                                    }
+                                                                    .direction__item-content {
+                                                                        max-width: 700px;
+                                                                    }
+                                                                    .direction__item-text {
+                                                                        text-align: justify;
+                                                                        padding: 20px;
+                                                                    }
+                                                                    .price {
+                                                                        padding-left: 35px;
+                                                                        padding-right: 35px;
+                                                                        margin: 0 auto;
+                                                                        left: 0;
+                                                                        display: flex;
+                                                                    }
+                                                                    .price__items {
+                                                                        display: flex;
+                                                                        justify-content: center;
+                                                                        height: 100%;
+                                                                        padding: 25px;
+                                                                        margin-top: -45px;
+                                                                    }
+                                                                    .price__item {
+                                                                        max-width: 650px;
+                                                                        max-height: 650px;
+                                                                        background: #1A1A1A;
+                                                                        overflow: hidden;
+                                                                        margin-bottom: 20px;
+                                                                    }
+                                                                    .desc {
+                                                                        padding: 50px 10px 30px;
+                                                                    }
+                                                                    .desc__item {
+                                                                        display: flex;
+                                                                        justify-content: space-between;
+                                                                        width: 70%;
+                                                                        height: 50%;
+                                                                        margin: 0 auto;
+                                                                        left: 0;
+                                                                    }
+                                                                    .desc {
+                                                                        padding: 50px 10px 30px;
+                                                                    }
+                                                                    .desc__item-content {
+                                                                        max-width: 800px;
+                                                                    }
+                                                                    .desc__item-text1,
+                                                                    .desc__item-text2 {
+                                                                        margin-bottom: 20px;
+                                                                        text-align: justify;
+                                                                    }
+                                                                }
                                                                 /*Small devices (landscape phones, 576px)*/
                                                                 
                                                                 @media (min-width: 576px) {
@@ -513,70 +578,5 @@
                                                                         background: #1A1A1A;
                                                                         overflow: hidden;
                                                                         margin-top: 20px;
-                                                                    }
-                                                                }
-                                                                /* Large devices (desktops, 992px)*/
-                                                                
-                                                                @media (min-width: 992px) {
-                                                                    .direction {
-                                                                        padding: 40px 30px 30px;
-                                                                        width: 75%;
-                                                                        height: 75%;
-                                                                        margin: 0 auto;
-                                                                        left: 0;
-                                                                    }
-                                                                    .direction__item {
-                                                                        display: flex;
-                                                                        justify-content: space-between;
-                                                                    }
-                                                                    .direction__item-content {
-                                                                        max-width: 700px;
-                                                                    }
-                                                                    .direction__item-text {
-                                                                        text-align: justify;
-                                                                        padding: 20px;
-                                                                    }
-                                                                    .price {
-                                                                        padding-left: 35px;
-                                                                        padding-right: 35px;
-                                                                        margin: 0 auto;
-                                                                        left: 0;
-                                                                        display: flex;
-                                                                    }
-                                                                    .price__items {
-                                                                        display: flex;
-                                                                        justify-content: center;
-                                                                        height: 100%;
-                                                                        padding: 25px;
-                                                                        margin-top: -45px;
-                                                                    }
-                                                                    .price__item {
-                                                                        max-width: 650px;
-                                                                        max-height: 650px;
-                                                                        background: #1A1A1A;
-                                                                        overflow: hidden;
-                                                                        margin-bottom: 20px;
-                                                                    }
-                                                                    .desc {
-                                                                        padding: 50px 10px 30px;
-                                                                    }
-                                                                    .desc__item {
-                                                                        display: flex;
-                                                                        justify-content: space-between;
-                                                                        width: 70%;
-                                                                        height: 50%;
-                                                                        margin: 0 auto;
-                                                                        left: 0;
-                                                                    }
-                                                                    .desc {
-                                                                        padding: 50px 10px 30px;
-                                                                    }
-                                                                    .desc__item-content {
-                                                                        max-width: 800px;
-                                                                    }
-                                                                    .desc__item-text1,
-                                                                    .desc__item-text2 {
-                                                                        margin-bottom: 20px;
-                                                                        text-align: justify;
                                                                     }
                                                                 }
