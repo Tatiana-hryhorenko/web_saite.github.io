@@ -459,10 +459,7 @@ address {
 }
 
 
-/*/ Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
-
-// Small devices (landscape phones, 576px and up)*/
+/*Small devices (landscape phones, 576px)*/
 
 @media (min-width: 576px) {
     .direction {
@@ -493,6 +490,13 @@ address {
         overflow: hidden;
         margin-top: 20px;
     }
+    .stock {
+        background: url(../image/background-2.jpg);
+        height: 50%;
+        background-position: left center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     .desc {
         padding: 50px 10px 30px;
     }
@@ -501,19 +505,24 @@ address {
         flex-direction: column;
         justify-content: space-between;
     }
-    .desc__item-content {
-        max-width: 750px;
-    }
-    .desc__item-text1,
-    .desc__item-text2 {
-        margin-bottom: 20px;
-        text-align: justify;
-    }
 }
 
 
-/* Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }*/
+/* Medium devices (tablets, 768px)*/
+
+@media (min-width: 768px) {
+    .direction {
+        padding: 25px;
+    }
+    .direction__item {
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+    }
+    .direction__item-content {
+        max-width: 700px;
+    }
+}
 
 
 /*/ Large devices (desktops, 992px and up)*/
