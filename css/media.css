@@ -1,4 +1,6 @@
-@media (min-width: 992px) {
+@media (max-width: 768px) {
+    .header,
+    .menu,
     .menu__list {
         display: none;
     }
