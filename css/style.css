@@ -436,10 +436,8 @@
                                                                     color: #fefefe;
                                                                     padding: 10px;
                                                                 }
-                                                                /* Large devices (desktops, 992px)*/
                                                                 /*Small devices (landscape phones, 576px)*/
-                                                                
-                                                                @media (min-width: 576px) {
+                                                                /*@media screen and (min-width: 576px) {
                                                                     .direction {
                                                                         padding: 25px;
                                                                     }
@@ -485,8 +483,7 @@
                                                                     }
                                                                 }
                                                                 /* Medium devices (tablets, 768px)*/
-                                                                
-                                                                @media (min-width: 768px) {
+                                                                /*@media screen and (min-width: 768px) {
                                                                     .direction {
                                                                         padding: 35px;
                                                                     }
@@ -517,7 +514,10 @@
                                                                     }
                                                                 }
                                                                 
-                                                                @media (min-width: 992px) {
+                                                                /*@media screen and (min-width: 992px) {
+                                                                    .container {
+                                                                        max-width: 850px;
+                                                                    }
                                                                     .direction {
                                                                         padding: 40px 30px 30px;
                                                                         width: 75%;
@@ -579,4 +579,4 @@
                                                                         margin-bottom: 20px;
                                                                         text-align: justify;
                                                                     }
-                                                                }
+                                                                }*/
