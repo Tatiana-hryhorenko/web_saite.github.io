@@ -491,24 +491,21 @@
                 }
                 
                 // Large devices (desktops, 992px and up)
-                @media (min-width: 992px) {
+                @media (max-width: 1160px) {
                     .price {
-                        margin: 20px 20px 20px;
+                        margin: 20px 70px 20px;
                     }
                     .price__items {
                         display: flex;
-                        justify-content: space-between;
+                        align-items: flex-start;
+                        flex-wrap: wrap;
                         height: 50%;
                     }
                     .price__item {
-                        display: flex;
-                        flex-direction: column;
-                        height: 100%;
                         max-width: 350px;
                         max-height: 350px;
                         background: #1A1A1A;
                         padding: 20px;
-                        /*position: relative;*/
                         overflow: hidden;
                     }
                     /*.price__item-title {
