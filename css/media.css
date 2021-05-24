@@ -1,1 +1,11 @@
-@media (max-width: 992px) {}
+@media (min-width: 992px) {
+    .menu__list {
+        display: none;
+        position: absolute;
+        top: 87px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
