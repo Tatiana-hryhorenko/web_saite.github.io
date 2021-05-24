@@ -152,7 +152,7 @@ body {
 .direction__item {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 
 .direction__item-content {
@@ -160,9 +160,8 @@ body {
 }
 
 .direction__item-text {
-    margin-bottom: 20px;
     text-align: justify;
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -473,24 +472,42 @@ address {
         display: flex;
         flex-direction: column;
         height: 50%;
-        margin-bottom: 30px;
     }
     .direction__item-content {
-        max-width: 550px;
+        max-width: 450px;
+    }
+    .price {
+        padding-left: 55px;
+        padding-right: 55px;
+        margin-top: -10px;
     }
     .price__items {
         display: flex;
-        flex-direction: column-reverse;
-        margin: 0 auto;
-        height: 100%;
+        flex-direction: column;
+        height: 80%;
     }
     .price__item {
         max-width: 350px;
         max-height: 350px;
         background: #1A1A1A;
-        padding: 20px;
-        /*position: relative;*/
         overflow: hidden;
+        margin-top: 20px;
+    }
+    .desc {
+        padding: 50px 10px 30px;
+    }
+    .desc__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .desc__item-content {
+        max-width: 750px;
+    }
+    .desc__item-text1,
+    .desc__item-text2 {
+        margin-bottom: 20px;
+        text-align: justify;
     }
 }
 
