@@ -1,38 +1,35 @@
-/** {
-                                                                        padding: 0;
-                                                                        margin: 0;
-                                                                        /*font-family: 'Roboto Condensed' sans-serif;
-                                                                text-transform: uppercase;
-                                                                color: #fefefe;
-                                                                font-size: 18px;
-                                                                line-height: 21px;*/
-
-
-}
-#side__bar {
-    position: fixed;
-    width: 250px;
-    height: 100%;
-    background: #1b1818;
-    border-right: 3px solid olive;
-}
-#side__bar ul li:first-child {
-    text-align: center;
-    color: #fefefe;
-    font-size: 18px;
-    line-height: 21px;
-    list-style: none;
-    padding: 25px 10px 10px 10px;
-}
-#side__bar ul li:not(:first-child) {
-    width: 90%;
-    margin-left: 10%;
-    font-size: 18px;
-    line-height: 21px;
-    list-style: none;
-    padding: 15px 10px;
-    color: #fefefe;
-}
-#side__bar ul li a {
-    color: #fefefe;
-}
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        #side__bar {
+            position: fixed;
+            width: 250px;
+            height: 100%;
+            background: #1b1818;
+            border-right: 3px solid olive;
+        }
+        
+        #side__bar ul li:first-child {
+            text-align: center;
+            color: #fefefe;
+            font-size: 18px;
+            line-height: 21px;
+            list-style: none;
+            padding: 25px 10px 10px 10px;
+        }
+        
+        #side__bar ul li:not(:first-child) {
+            width: 90%;
+            margin-left: 10%;
+            font-size: 18px;
+            line-height: 21px;
+            list-style: none;
+            padding: 15px 10px;
+            color: #fefefe;
+        }
+        
+        #side__bar ul li a {
+            color: #fefefe;
+        }
