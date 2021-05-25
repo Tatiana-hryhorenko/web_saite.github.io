@@ -1,13 +1,11 @@
-/*@media (min-width: 768px) {
+    /*@media (min-width: 768px) {
     #side__bar {
         display: none;
     }
 }*/
-
-@media (max-width: 768px) {
+    /*@media (max-width: 768px) {
     .header,
     .menu,
     .menu__list {
         display: none;
     }
-}
